@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F7F7F5;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-inline: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(207, 204, 204);
+
+}
+header img{
+    height: 25px;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+header ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+header ul li a:hover{
+    text-decoration: underline;
+}
+header button{
+    background-color: #BC6C26;
+    border: none;
+    padding-inline: 10px;
+    border-radius: 7px;
+    padding-block: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+/* MAIN DTAA */
+.main-data{
+    height: 500px;
+    background-image: url(img/main-image.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
