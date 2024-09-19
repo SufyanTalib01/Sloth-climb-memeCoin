@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Baloo Bhai 2", sans-serif;
 }
+:root{
+    --ParaGraphColor: #979595;
+}
 .main-container{
     display: flex;
     flex-direction: column;
@@ -56,4 +59,52 @@ header button{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.main-data-text{
+    max-width: 599px;
+    padding-top: 106px;
+    margin-inline: 90px;
+}
+.main-data-text h1{
+    font-size: 32px;
+}
+.main-data-text P{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: var(--ParaGraphColor);
+}
+.main-data-btn{
+    margin-top: 22px;
+    display: flex;
+    gap: 10px;
+
+}
+.main-data-btn button{
+    background-color: #BC6C26;
+    border: none;
+    padding-inline: 13px;
+    border-radius: 7px;
+    padding-block: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+.main-data-btn button:nth-child(2){
+    background-color: transparent;
+    border: 1px solid #BC6C26;
+    color: #BC6C26;
+}
+
+.main-data-address{
+    display: flex;
+    background-color: #EFEFEF;
+}
+.main-data-address span{
+    white-space: pre;
+    
+}
+.copy{
+    background-color: #737373;
 }
